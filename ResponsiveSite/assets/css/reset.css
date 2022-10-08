@@ -1,0 +1,574 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* li {
+  list-style: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+input,
+button,
+textarea {
+  outline: none;
+}
+
+.t-0 {
+  top: 0;
+}
+
+.l-0 {
+  left: 0;
+}
+
+.b-0 {
+  bottom: 0;
+}
+
+.r-0 {
+  right: 0;
+}
+
+.d-flx {
+  display: flex;
+}
+
+.d-flexall {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.d-fl {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.d-flexx {
+  display: flex;
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-stretch {
+  align-items: stretch;
+}
+
+.p-fixed {
+  position: fixed;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.p-center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-dark-white {
+  background-color: #edf3f8;
+}
+
+.padding-len {
+  padding: 10vh 0;
+}
+
+.menu-inlineblock>li {
+  display: inline-block;
+}
+
+.menu>li {
+  margin-left: 10px;
+}
+
+.border-left {
+  border-left: .5px solid #F7F7F7;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #999999;
+  margin-bottom: 65px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+.fs-14{
+  font-size: 14px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-22 {
+  font-size: 22px;
+}
+
+.fs-36 {
+  font-size: 36px;
+}
+.fs-66{
+  font-size: 66px;
+}
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 1.5rem;
+}
+
+.p-3 {
+  padding: 2.5rem;
+}
+
+.p-4 {
+  padding: 3rem;
+}
+
+.p-5 {
+  padding: 4rem;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pl-15 {
+  padding-left: 15px;
+}
+
+.pl-20 {
+  padding-left: 20px;
+}
+
+.pl-25 {
+  padding-left: 25px;
+}
+
+.pl-30 {
+  padding-left: 30px;
+}
+
+.pl-40 {
+  padding-left: 40px;
+}
+
+.pl-50 {
+  padding-left: 50px;
+}
+
+.pl-60 {
+  padding-left: 60px;
+}
+
+.pl-70 {
+  padding-left: 70px;
+}
+
+.pl-80 {
+  padding-left: 80px;
+}
+
+.pl-90 {
+  padding-left: 90px;
+}
+.pt-5{
+  padding-top: 5px;
+}
+.pt-10{
+  padding-top: 10px;
+}
+.pt-15{
+  padding-top: 15px;
+}
+.pt-20{
+  padding-top: 20px;
+}
+.pt-25{
+  padding-top: 25px;
+}
+.pt-30{
+  padding-top: 30px;
+}
+.pt-35{
+  padding-top: 35px;
+}
+.pt-40{
+  padding-top: 40px;
+}
+.pt-45{
+  padding-top: 45px;
+}
+.pt-50{
+  padding-top: 50px;
+}
+.pr-90 {
+  padding-right: 90px;
+}
+
+.bg-light {
+  background-color: #F7F7F7;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.text-light {
+  color: #F7F7F7;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-wh {
+  color: rgb(222, 222, 222);
+  ;
+}
+
+.text-gray {
+  color: gray;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.text-lightgray {
+  color: rgb(153, 148, 148);
+}
+
+.text-grey {
+  color: gray;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.submenu {
+  position: relative;
+}
+
+.submenu ul {
+  position: absolute;
+  height: 0;
+  transition: .5s;
+  overflow: hidden;
+}
+
+.submenu ul li {
+  padding: 10px 15px;
+  display: block;
+}
+
+.submenu:hover>ul {
+  height: 130px;
+}
+
+.navbar {
+  top: 0;
+  z-index: 9;
+}
+
+.space-around {
+  justify-content: space-around !important;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 1.5rem;
+}
+
+.mt-3 {
+  margin-top: 2.5rem;
+}
+
+.mt-4 {
+  margin-top: 3rem;
+}
+
+.mt-5 {
+  margin-top: 4rem;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.mt-70 {
+  margin-top: 70px;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+.mt-150 {
+  margin-top: 150px;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 3rem;
+}
+
+.mb-5 {
+  margin-bottom: 4rem;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.ml-40 {
+  margin-left: 40px;
+}
+
+.ml-50 {
+  margin-left: 50px;
+}
+
+.ml-60 {
+  margin-left: 60px;
+}
+
+.ml-200 {
+  margin-left: 200px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.mr-40 {
+  margin-right: 40px;
+}
+
+.mr-50 {
+  margin-right: 50px;
+}
+
+.mg-auto {
+  margin: auto;
+}
+
+.btn {
+  text-align: center;
+  font-size: 0.8rem;
+  border-radius: 0.3rem;
+  color: rgb(117, 116, 116);
+  border: 1px solid rgb(225, 225, 225);
+  background-color: #ffffff;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-weight: bolder;
+  margin-right: 10px;
+  bottom: 150px;
+  transition: 0.3s;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 15%) !important;
+}
+
+.write {
+  font-family: sans-serif;
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.font-light {
+  font-weight: lighter;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-gold {
+  color: gold;
+}
+
+.text-lightblue {
+  color: rgb(13, 186, 232);
+}
+
+.display-6 {
+  font-size: 28px;
+}
+
+.display-5 {
+  font-size: 36px;
+}
